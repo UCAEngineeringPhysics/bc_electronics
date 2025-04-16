@@ -1,1 +1,1 @@
-# BearCart Electronics 
+# Electrical Engineering for BearCart
