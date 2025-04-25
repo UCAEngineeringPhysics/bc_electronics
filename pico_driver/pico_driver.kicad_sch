@@ -8034,7 +8034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "RaspberryPi_Pico:RaspberryPi_Pico_Common_THT"
 			(at 179.07 59.69 90)
 			(effects
 				(font
