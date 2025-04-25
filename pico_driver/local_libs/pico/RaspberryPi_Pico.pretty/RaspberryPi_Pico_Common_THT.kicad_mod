@@ -226,16 +226,6 @@
 		(uuid "2bdb6817-4f24-440b-a52a-4d5edb229a94")
 	)
 	(fp_line
-		(start 12.49 49.74)
-		(end 5.29 49.74)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e86d9008-c23a-401d-82b1-68e40dd8de34")
-	)
-	(fp_line
 		(start 12.79 -1.96)
 		(end 12.79 -0.564)
 		(stroke
@@ -397,17 +387,6 @@
 		(uuid "361a6190-162e-4a52-9fff-e9df84cbe3df")
 	)
 	(fp_arc
-		(start -1.11 49.74)
-		(mid -1.541364 49.561364)
-		(end -1.72 49.13)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "81ba3927-b3ac-4375-adb8-7bd636423070")
-	)
-	(fp_arc
 		(start 18.89 -1.48)
 		(mid 19.321335 -1.301335)
 		(end 19.5 -0.87)
@@ -417,17 +396,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f21e0f83-2b23-45a5-b832-f0f8c6a8c6a6")
-	)
-	(fp_arc
-		(start 19.5 49.13)
-		(mid 19.321335 49.561335)
-		(end 18.89 49.74)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ffa1f67f-f66b-4415-8453-1f7d2e1cb5e2")
 	)
 	(fp_circle
 		(center 3.19 0.63)
@@ -1711,35 +1679,11 @@
 			(justify right mirror)
 		)
 	)
-	(fp_text user "Keep Out"
-		(at 8.89 45.72 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "06952b02-f288-4d40-976f-7100ca825fe5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "USB Cable"
 		(at 8.89 -13.335 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "6ff696b0-1cbf-4ddf-82c3-665011a30434")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Possible Antenna"
-		(at 8.89 43.815 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "a20c35c5-bd38-411f-85c6-9356a37cb83c")
 		(effects
 			(font
 				(size 1 1)
@@ -2282,45 +2226,6 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "F.Paste"
-			"In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu"
-			"In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu"
-			"In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu"
-			"In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
-		)
-		(uuid "ebc3178d-5081-4530-8c30-87e92b6d79b8")
-		(name "Antenna Copper Keep Out")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy 6.49 49.119895) (xy 1.79 45.469895) (xy 1.79 41.13) (xy 15.99 41.13) (xy 15.99 45.469895) (xy 11.29 49.119895)
-				(xy 11.29 50.13) (xy 6.49 50.13)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.CrtYd")
 		(uuid "59b87f8a-0978-48e6-a101-134595838ecf")
 		(name "USB Cable")
@@ -2378,13 +2283,6 @@
 			"efd5acec-15ca-4365-b498-438f33b7e2f8" "f083607d-ccd4-4c54-bf23-53abdbeb3b03"
 			"f6afce6f-1985-44fb-8f62-1c50ec051a40" "fa486b5a-acaf-42ba-a401-0009298757f8"
 			"fc53a0e8-1d70-43ca-a565-98375803c030" "fed1f427-c7fb-450f-b195-2218b1ea047d"
-		)
-	)
-	(group ""
-		(uuid "b5b84e0b-f437-4b6a-8223-3e9cd661573f")
-		(members "06952b02-f288-4d40-976f-7100ca825fe5" "81ba3927-b3ac-4375-adb8-7bd636423070"
-			"a20c35c5-bd38-411f-85c6-9356a37cb83c" "e86d9008-c23a-401d-82b1-68e40dd8de34"
-			"ebc3178d-5081-4530-8c30-87e92b6d79b8" "ffa1f67f-f66b-4415-8453-1f7d2e1cb5e2"
 		)
 	)
 	(group ""
