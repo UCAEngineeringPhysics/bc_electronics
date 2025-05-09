@@ -5,9 +5,10 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "USLetter")
 	(title_block
-		(title "BearCart - Cerebellum")
-		(date "2025-04-25")
-		(rev "0.2")
+		(title "BearCart - Driver Board")
+		(date "2025-05-09")
+		(rev "25.05.001")
+		(company "Engineering Physics - UCA")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
