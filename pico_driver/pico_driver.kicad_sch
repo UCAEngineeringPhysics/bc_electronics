@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "BearCart - Driver Board")
-		(date "2025-05-09")
-		(rev "25.05.001")
+		(date "2025-05-17")
+		(rev "25.05.002")
 		(company "Engineering Physics - UCA")
 	)
 	(lib_symbols
