@@ -518,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber-PCBWAY/",
+      "plot": "gerber-jlcpcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
